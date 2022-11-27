@@ -84,8 +84,8 @@ export default class Home extends Component {
             .post(API_URL + "carts", keranjang)
             .then((res) => {
               swal({
-                title: "Sukses Masuk Keranjang",
-                text: "Sukses Masuk Keranjang " + keranjang.product.nama,
+                title: "Add to Cart",
+                text: keranjang.product.nama,
                 icon: "success",
                 button: false,
                 timer: 1500,
@@ -105,8 +105,8 @@ export default class Home extends Component {
             .put(API_URL + "carts/" + res.data[0].id, keranjang)
             .then((res) => {
               swal({
-                title: "Sukses Masuk Keranjang",
-                text: "Sukses Masuk Keranjang " + keranjang.product.nama,
+                title: "Add to Cart",
+                text: keranjang.product.nama,
                 icon: "success",
                 button: false,
                 timer: 1500,

@@ -65,13 +65,13 @@ const ModalKeranjang = ({
               />
             </Form.Group>
             <Button variant="primary" type="submit">
-                Simpan
+                Update
             </Button>   
           </Form>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="danger" onClick={() => hapusPesanan(keranjangDetail.id)}>
-            <FontAwesomeIcon icon={faTrash} /> Hapus Pesanan
+            <FontAwesomeIcon icon={faTrash} /> Void
           </Button>
         </Modal.Footer>
       </Modal>

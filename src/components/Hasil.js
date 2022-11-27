@@ -76,8 +76,8 @@ export default class Hasil extends Component {
       .put(API_URL + "carts/" + this.state.keranjangDetail.id, data)
       .then((res) => {
         swal({
-          title: "Update Pesanan!",
-          text: "Sukses Update Pesanan " + data.product.nama,
+          title: "Cart Updated",
+          text: data.product.nama,
           icon: "success",
           button: false,
           timer: 1500,
@@ -95,9 +95,9 @@ export default class Hasil extends Component {
       .delete(API_URL + "carts/" + id)
       .then((res) => {
         swal({
-          title: "Hapus Pesanan!",
+          title: "Order Canceled",
           text:
-            "Sukses Hapus Pesanan " + this.state.keranjangDetail.product.nama,
+             this.state.keranjangDetail.product.nama,
           icon: "error",
           button: false,
           timer: 1500,
