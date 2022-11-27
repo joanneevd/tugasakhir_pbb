@@ -347,7 +347,25 @@
       }
     }
   ],
-  "carts": [],
+  "carts": [
+    {
+      "jumlah": 1,
+      "total_harga": 55000,
+      "product": {
+        "id": 8,
+        "kode": "K-08",
+        "nama": "Caramel Frappuccino",
+        "harga": 55000,
+        "is_ready": true,
+        "gambar": "caramel-frappuccino.jpg",
+        "category": {
+          "id": 2,
+          "nama": "Blended Beverages"
+        }
+      },
+      "id": 2
+    }
+  ],
   "totals": [
     {
       "total_bayar": 65000,
@@ -843,6 +861,172 @@
         }
       ],
       "id": 14
+    },
+    {
+      "total_bayar": 35000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 35000,
+          "product": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Caffe Latte",
+            "harga": 35000,
+            "is_ready": true,
+            "gambar": "caffe-latte.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Espresso Beverages"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 15
+    },
+    {
+      "total_bayar": 65000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 30000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Caffe Americano",
+            "harga": 30000,
+            "is_ready": true,
+            "gambar": "caffe-americano.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Espresso Beverages"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 35000,
+          "product": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Caffe Latte",
+            "harga": 35000,
+            "is_ready": true,
+            "gambar": "caffe-latte.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Espresso Beverages"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 16
+    },
+    {
+      "total_bayar": 65000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 30000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Caffe Americano",
+            "harga": 30000,
+            "is_ready": true,
+            "gambar": "caffe-americano.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Espresso Beverages"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 35000,
+          "product": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Caffe Latte",
+            "harga": 35000,
+            "is_ready": true,
+            "gambar": "caffe-latte.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Espresso Beverages"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 17
+    },
+    {
+      "total_bayar": 65000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 30000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Caffe Americano",
+            "harga": 30000,
+            "is_ready": true,
+            "gambar": "caffe-americano.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Espresso Beverages"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 35000,
+          "product": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Caffe Latte",
+            "harga": 35000,
+            "is_ready": true,
+            "gambar": "caffe-latte.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Espresso Beverages"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 18
+    },
+    {
+      "total_bayar": 30000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 30000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Caffe Americano",
+            "harga": 30000,
+            "is_ready": true,
+            "gambar": "caffe-americano.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Espresso Beverages"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 19
     }
   ]
 }
