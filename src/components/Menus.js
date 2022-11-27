@@ -16,7 +16,9 @@ const Menus = ({ menu, masukKeranjang }) => {
           }
         />
         <Card.Body>
-          <Card.Title>{menu.nama} <strong>({menu.kode})</strong></Card.Title>
+          <Card.Title>
+            {menu.nama} <strong>({menu.kode})</strong>
+          </Card.Title>
           <Card.Text>Rp. {numberWithCommas(menu.harga)}</Card.Text>
         </Card.Body>
       </Card>

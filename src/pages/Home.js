@@ -39,16 +39,16 @@ export default class Home extends Component {
   }
 
   componentDidUpdate(prevState) {
-    if(this.state.carts !== prevState.carts) {
+    if (this.state.carts !== prevState.carts) {
       axios
-      .get(API_URL + "carts")
-      .then((res) => {
-        const carts = res.data;
-        this.setState({ carts });
-      })
-      .catch((error) => {
-        console.log("Error yaa ", error);
-      });
+        .get(API_URL + "carts")
+        .then((res) => {
+          const carts = res.data;
+          this.setState({ carts });
+        })
+        .catch((error) => {
+          console.log("Error yaa ", error);
+        });
     }
   }
 
@@ -125,13 +125,13 @@ export default class Home extends Component {
   render() {
     const { menus, categoriYangDipilih, carts } = this.state;
     return (
-      
       <div className="mt-3">
         <Container fluid>
           <Row>
             <ListCategories
               changeCategory={this.changeCategory}
-              categoriYangDipilih={categoriYangDipilih} />
+              categoriYangDipilih={categoriYangDipilih}
+            />
             <Col className="mt-3">
               <h4>
                 <strong>Products</strong>
@@ -143,7 +143,8 @@ export default class Home extends Component {
                     <Menus
                       key={menu.id}
                       menu={menu}
-                      masukKeranjang={this.masukKeranjang} />
+                      masukKeranjang={this.masukKeranjang}
+                    />
                   ))}
               </Row>
             </Col>

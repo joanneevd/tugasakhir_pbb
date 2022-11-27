@@ -96,8 +96,7 @@ export default class Hasil extends Component {
       .then((res) => {
         swal({
           title: "Order Canceled",
-          text:
-             this.state.keranjangDetail.product.nama,
+          text: this.state.keranjangDetail.product.nama,
           icon: "error",
           button: false,
           timer: 1500,

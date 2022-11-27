@@ -20,7 +20,7 @@ const Icon = ({ nama }) => {
     return <FontAwesomeIcon icon={faBreadSlice} className="mr-2" />;
   if (nama === "Sweet Cakes")
     return <FontAwesomeIcon icon={faCookieBite} className="mr-2" />;
-    if (nama === "Whole Bean")
+  if (nama === "Whole Bean")
     return <FontAwesomeIcon icon={faCoffee} className="mr-2" />;
 
   return <FontAwesomeIcon icon={faUtensils} className="mr-2" />;
