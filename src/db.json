@@ -1146,6 +1146,126 @@
         }
       ],
       "id": 22
+    },
+    {
+      "total_bayar": 0,
+      "menus": [],
+      "id": 23
+    },
+    {
+      "total_bayar": 40000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 40000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Caffe Mocha",
+            "harga": 40000,
+            "is_ready": true,
+            "gambar": "caffe-mocha.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Espresso Beverages"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 24
+    },
+    {
+      "total_bayar": 0,
+      "menus": [],
+      "id": 25
+    },
+    {
+      "total_bayar": 0,
+      "menus": [],
+      "id": 26
+    },
+    {
+      "total_bayar": 0,
+      "menus": [],
+      "id": 27
+    },
+    {
+      "total_bayar": 0,
+      "menus": [],
+      "id": 28
+    },
+    {
+      "total_bayar": 0,
+      "menus": [],
+      "id": 29
+    },
+    {
+      "total_bayar": 0,
+      "menus": [],
+      "id": 30
+    },
+    {
+      "total_bayar": 0,
+      "menus": [],
+      "id": 31
+    },
+    {
+      "total_bayar": 460000,
+      "menus": [
+        {
+          "jumlah": 12,
+          "total_harga": 360000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Caffe Americano",
+            "harga": 30000,
+            "is_ready": true,
+            "gambar": "caffe-americano.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Espresso Beverages"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 45000,
+          "product": {
+            "id": 5,
+            "kode": "K-05",
+            "nama": "Caramel Macchiato",
+            "harga": 45000,
+            "is_ready": true,
+            "gambar": "caramel-macchiato.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Espresso Beverages"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 55000,
+          "product": {
+            "id": 7,
+            "kode": "K-07",
+            "nama": "Iced Espresso and Matcha Fusion",
+            "harga": 55000,
+            "is_ready": true,
+            "gambar": "iced-espresso-and-matcha-fusion.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Espresso Beverages"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 32
     }
   ]
 }

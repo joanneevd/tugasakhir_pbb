@@ -41,6 +41,7 @@ export default class TotalBayar extends Component {
                 className="mb-2 mt-4 mr-2"
                 size="lg"
                 onClick={() => this.submitTotalBayar(totalBayar)}
+                disabled = {totalBayar === 0 ? true : false}
               >
                 <FontAwesomeIcon icon={faShoppingCart} /> <strong>BAYAR</strong>
               </Button>
@@ -64,6 +65,7 @@ export default class TotalBayar extends Component {
                 className="mb-2 mt-4 mr-2"
                 size="lg"
                 onClick={() => this.submitTotalBayar(totalBayar)}
+                disabled = {totalBayar === 0 ? true : false}
               >
                 <FontAwesomeIcon icon={faShoppingCart} /> <strong>BAYAR</strong>
               </Button>
