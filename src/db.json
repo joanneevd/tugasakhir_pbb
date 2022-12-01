@@ -1266,6 +1266,52 @@
         }
       ],
       "id": 32
+    },
+    {
+      "total_bayar": 30000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 30000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Caffe Americano",
+            "harga": 30000,
+            "is_ready": true,
+            "gambar": "caffe-americano.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Espresso Beverages"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 33
+    },
+    {
+      "total_bayar": 30000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 30000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Caffe Americano",
+            "harga": 30000,
+            "is_ready": true,
+            "gambar": "caffe-americano.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Espresso Beverages"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 34
     }
   ]
 }

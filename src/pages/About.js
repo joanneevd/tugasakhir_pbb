@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, Image } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 
 export default class About extends Component {
@@ -13,13 +13,13 @@ export default class About extends Component {
               src="assets/2.png"
               alt="First slide"
             />
-           
+
             <Carousel.Caption>
-            <img
-              src="assets/s1.png"
-              width="30%"
-              style={{marginBottom:25}}>
-              </img> 
+              <img
+                src="assets/s1.png"
+                width="30%"
+                style={{ marginBottom: 25 }}
+              ></img>
               <h3>DELICIOUS, HANDCRAFTED BEVERAGES AND GREAT-TASTING FOOD</h3>
               <p>The secret to making life better.</p>
             </Carousel.Caption>
@@ -32,11 +32,11 @@ export default class About extends Component {
             />
 
             <Carousel.Caption>
-            <img
-              src="assets/s2.png"
-              width="30%"
-              style={{marginBottom:25}}>
-              </img>    
+              <img
+                src="assets/s2.png"
+                width="30%"
+                style={{ marginBottom: 25 }}
+              ></img>
               <h3>JO'S CAFE BEVERAGES</h3>
               <p>
                 Amazing coffees from around the world. Handcrafted beverages to
@@ -52,26 +52,23 @@ export default class About extends Component {
             />
 
             <Carousel.Caption>
-            <img
-              src="assets/s3.png"
-              width="30%"
-              style={{marginBottom:25}}>
-              </img> 
+              <img
+                src="assets/s3.png"
+                width="30%"
+                style={{ marginBottom: 25 }}
+              ></img>
               <h3>FRESH FOOD</h3>
               <p>
-                Our pastries and sandwichenpm s are made with high-quality, simple
-                ingredients. So all the goodness you taste is real food, simply
-                delicious.
+                Our pastries and sandwichenpm s are made with high-quality,
+                simple ingredients. So all the goodness you taste is real food,
+                simply delicious.
               </p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
 
         <section className="section">
-          <div 
-          className="container"
-          style={{marginTop:10}}
-          >
+          <div className="container" style={{ marginTop: 10 }}>
             <div className="card shadow">
               <div className="card-body">
                 <div className="row">
@@ -111,12 +108,11 @@ export default class About extends Component {
                       ></textarea>
                     </div>
                     <div className="form-group py-3">
-                      <button
-                        type="button"
-                        className="btn btn-primary shadow w-100"
-                      >
-                        Send Message
-                      </button>
+                      <a href="/about">
+                        <Button variant="primary shadow w-100">
+                          Send Message
+                        </Button>
+                      </a>
                     </div>
                   </div>
                   <div className="col-md-6 border-start">
